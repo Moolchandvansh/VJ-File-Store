@@ -35,7 +35,7 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://Moolvansh:<3zIPc4VjnpP1CtlU>@telegrambots.a86li.mongodb.net/?retryWrites=true&w=majority&appName=Telegrambots")
+DB_URI = environ.get("DB_URI", "mongodb+srv://Moolvansh:3zIPc4VjnpP1CtlU@telegrambots.a86li.mongodb.net/?retryWrites=true&w=majority&appName=Telegrambots")
 DB_NAME = environ.get("DB_NAME", "OGmaterial")
 
 # Auto Delete Information
@@ -53,7 +53,7 @@ CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 
 # Enable - True or Disable - False
-PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
+PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), False)
 
 # Verify Info :-
 VERIFY_MODE = bool(environ.get('VERIFY_MODE', False)) # Set True or False
